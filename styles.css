@@ -1,0 +1,190 @@
+body {
+    font-family: 'Source Sans Pro';
+}
+
+/* Background Images */
+
+.bg-header-image {
+    background-image: url(/images/pic_1.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg-price-image {
+    background-image: url(/images/pic_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-courses-header {
+    background-image: url(/images/pic_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-purple {
+    background: #C271FF;
+}
+
+.bg-footer {
+    background: #071629;
+}
+
+
+/** Hamburger Menu pre-click **/
+.navbar-toggler-icon:before {
+    font-family: 'holberton_school-icon';
+    content: "\e911";
+    color: #FFFFFF;
+}
+
+#banner-heading {
+    font-size: 32px;
+}
+
+.img-smile-logo {
+    max-width: 100%;
+    width: 37px;
+    height: 30px;
+}
+
+.coin-font {
+    font-family: 'Coiny';
+    font-size: 32px;
+}
+
+.footer-icon {
+    height: 30px;
+}
+
+.coin-font-nav {
+    font-family: "Coiny";
+    font-size: 18px;
+}
+
+.pricing-button {
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+}
+
+.monthly-price-text {
+    opacity: 0.503;;
+}
+
+.pricing-options {
+    font-size: 18px;
+}
+
+.signal-logo {
+    width: 88px;
+    height: 35px;
+}
+
+.testimonial-quote {
+    font-size: 22px;;
+}
+
+#testimonial-image {
+    height: 160px;
+    width: 160px;
+}
+
+#lucy-testimonial-image {
+    height: 160px;
+    width: 160px;
+}
+
+.testimonial-author {
+    font-size: 22px;
+}
+
+.carousel-button {
+    height: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+}
+
+.faq-label {
+    font-size: 4rem;
+}
+
+.faq-heading {
+    font-size: 1.5rem
+}
+
+.faq-description {
+    font-size: 1rem;
+    opacity: 51%;
+    width: 73%;
+}
+
+.copyright-text {
+    opacity: 35%;
+}
+
+.course-banner-header {
+    font-family: 'Coiny';
+    font-size: 32px;
+}
+
+.course-header-smile {
+    font-family: 'Coiny';
+    color: #C271FF;
+}
+
+#keyword-text {
+    opacity: 50%;
+}
+
+.form-select {
+    opacity: 50%;
+}
+
+.video-heading {
+    opacity: 30%;
+}
+
+.card-img-top {
+
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
+    opacity: 50%;
+}
+
+.play-button {
+    height: 64px;
+    width: 64px;
+    opacity: 70%;
+}
+.massey-head {
+    height: 50px;
+    width: 50px;   
+}
+
+.massey-title {
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+}
+
+.video-length-text {
+    font-size: 14px;
+    color: #C271FF;
+}
