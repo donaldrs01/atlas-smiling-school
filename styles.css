@@ -1,14 +1,30 @@
+
 body {
     font-family: 'Source Sans Pro';
 }
 
+@font-face {
+    font-family: 'holberton_school-icon';
+    src: url(/fonts/fonts/holberton_school-icon.svg)
+}
+
 /* Background Images */
 
+.bg-homepage-image {
+    background-image: url(images/pic_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .bg-header-image {
     background-image: url(/images/pic_1.jpg);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.bg-free-membership {
+    background-color: #071629;
 }
 
 .bg-price-image {
@@ -35,10 +51,23 @@ body {
 
 
 /** Hamburger Menu pre-click **/
-.navbar-toggler-icon:before {
-    font-family: 'holberton_school-icon';
-    content: "\e911";
+.holberton_school-icon-menu {
     color: #FFFFFF;
+    font-size: larger;
+}
+
+
+.nav-link:hover, .nav-link:focus {
+    color: #C271FF !important;
+    text-decoration: underline !important;
+}
+
+.home-banner-heading {
+    font-size: 120px;
+}
+
+.home-banner-subheading {
+    font-size: 16px;
 }
 
 #banner-heading {
@@ -50,6 +79,7 @@ body {
     width: 37px;
     height: 30px;
 }
+
 
 .coin-font {
     font-family: 'Coiny';
@@ -65,10 +95,89 @@ body {
     font-size: 18px;
 }
 
+.header-button {
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+}
+
+.header-button:hover, .header-button:active {
+    opacity: 0.9;
+}
+
+.learn-pros-header {
+    font-size: 32px;
+}
+
+.learn-span {
+    color: #C271FF;
+    font-size: 32px;
+}
+
+.pro-image {
+    height: 150px;
+    width: 150px;
+}
+
+.pro-name {
+    font-size: 18px;
+}
+
+.pro-award {
+    font-size: 16px;
+}
+
+.popular-video-heading {
+    font-size: 32px;
+}
+
+.popular-span {
+    color: #C271FF;
+    font-size: 32px;
+}
+
+.free-membership-span {
+    color: #C271FF;
+    font-size: 32px;
+}
+
+.free-membership-heading {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.latest-videos-heading {
+    color: #071629;
+    font-size: 32px;
+}
+
+.latest-videos-span {
+    color: #C271FF;
+    font-size: 32px;
+}
+
+.smile-icon {
+    width: 45px;
+    height: 36px;
+}
+
+.smile-heading {
+    font-size: 18px;
+}
+
+.smile-subheading {
+    font-size: 14px;
+}
+
 .pricing-button {
     width: 162px;
     height: 44px;
     background-color: #C271FF;
+}
+
+.pricing-button:hover, .pricing-button:active {
+    opacity: 0.9;
 }
 
 .monthly-price-text {
@@ -100,6 +209,10 @@ body {
 
 .testimonial-author {
     font-size: 22px;
+}
+
+.carousel-container {
+    max-width: 255px;
 }
 
 .carousel-button {
@@ -187,4 +300,9 @@ body {
 .video-length-text {
     font-size: 14px;
     color: #C271FF;
+}
+
+.video-thumbnail {
+    width: 255px;
+    height: 154px;
 }
